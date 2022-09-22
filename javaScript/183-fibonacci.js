@@ -11,7 +11,7 @@ function fibonacciGenerator (n) {
             output.push(output[i-1]+output[i-2]);
         }
     }
-    console.log(output);
+    return output;
     //Return an array of fibonacci numbers starting from 0.
     
 //Do NOT change any of the code below 👇
